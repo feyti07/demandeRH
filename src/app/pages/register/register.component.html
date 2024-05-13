@@ -1,0 +1,56 @@
+
+<div class="container">
+<div class="registration form">
+  <header>Signup</header>
+  <form action="#">
+    <input type="text" placeholder="Enter your email">
+    <input type="password" placeholder="Create a password">
+    <input type="password" placeholder="Confirm your password">
+    <input type="button" (click)="register()" class="button" value="Signup">
+  </form>
+  <div class="signup">
+    <span class="signup">Already have an account?
+      <button (click)="login()" type="button" class="btn btn-link">
+        Login
+      </button>
+    </span>
+  </div>
+</div>
+</div>
+
+
+
+
+
+<!--<div class="container-fluid card login-container">
+  <h3 class="text-center">Create an account</h3>
+  <hr>
+
+  <div class="mb-3">
+    <label for="lastname" class="form-label">username</label>
+    <input  [(ngModel)]="userDto.username" type="text" class="form-control" id="lastname" placeholder="Lastname">
+  </div>
+  <div class="mb-3">
+    <label for="login" class="form-label">Email address</label>
+    <input [(ngModel)]="userDto.email" type="email" class="form-control" id="login" placeholder="name@example.com">
+  </div>
+  <div class="mb-3">
+    <label for="password" class="form-label">Password</label>
+    <input [(ngModel)]="userDto.password" type="password" class="form-control" id="password" placeholder="Password">
+  </div>
+  <div class="mb-3">
+    <label for="repeat-password" class="form-label">Repeat password</label>
+    <input type="password" class="form-control" id="repeat-password" placeholder="Repeat password">
+  </div>
+  <div class="d-flex justify-content-between mb-3">
+    <button (click)="register()" type="button" class="btn btn-primary">
+      <em class="fas fa-sign-in-alt">&nbsp;Create an account</em>
+    </button>
+    <div>
+      Already have an account?&nbsp;
+      <button (click)="login()" type="button" class="btn btn-link">
+      Login
+    </button>
+    </div>
+  </div>
+</div> -->
